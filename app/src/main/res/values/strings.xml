@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Prototype</string>
+    <string name="location_source">Location Source</string>
 </resources>
