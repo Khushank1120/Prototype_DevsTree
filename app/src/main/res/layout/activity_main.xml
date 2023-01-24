@@ -77,6 +77,7 @@
         android:textSize="15dp"
         android:text="Add POI"
         android:background="@drawable/rounded_btn"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
         app:layout_constraintEnd_toEndOf="@+id/textViewSplash"
         app:layout_constraintStart_toStartOf="@+id/textViewSplash"
         app:layout_constraintTop_toBottomOf="@+id/textViewSplash" />
