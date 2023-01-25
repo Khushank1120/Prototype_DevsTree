@@ -73,7 +73,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
                 });
 
                 databaseHelper.locationDao().add(
-                        new Location(textView,latitude,longitude,"1200")
+                        new Location(searchView.toString(),latitude,longitude,"1200")
                 );
 
                 ArrayList<Location> locationArrayList = (ArrayList<Location>)databaseHelper.locationDao().getAllLocations();
@@ -84,7 +84,6 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
                 }
             }
         });
-
 
         locationListButton.setOnClickListener(new View.OnClickListener() {
             @Override

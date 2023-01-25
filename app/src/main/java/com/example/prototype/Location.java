@@ -1,7 +1,5 @@
 package com.example.prototype;
 
-import android.widget.TextView;
-
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.Ignore;
@@ -22,7 +20,7 @@ public class Location {
     private float distance;
 
 
-    Location(TextView name, float latitude, float longitude, String distance) {
+    Location(String name, float latitude, float longitude, String distance) {
         this.name = String.valueOf(name);
         this.latitude = Double.parseDouble(String.valueOf(latitude));
         this.longitude = Double.parseDouble(String.valueOf(longitude));
